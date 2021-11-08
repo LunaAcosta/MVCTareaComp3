@@ -7,6 +7,11 @@ namespace MVCTarea.Models
         public string nombre;
         public string Apellidos;
         public int Edad;
+
+        public string ce;
+        public Int64 num;
+
+        public string direc;
  
     }
 }

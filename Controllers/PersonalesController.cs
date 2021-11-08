@@ -14,9 +14,12 @@ namespace MVCTarea.Controllers
         public IActionResult Index()
         {
             Personales personales = new Personales();
-            personales.nombre="Luna";
-            personales.Apellidos="Acosta";
+            personales.nombre="Kevin Alexander";
+            personales.Apellidos="Luna Acosta";
             personales.Edad=19;
+            personales.ce="lunaacosta300@gmail.com";
+            personales.num=78633435;
+            personales.direc="Municipio de Meanguera, Departamento de Morazan, El salvador";
             return View(personales);
         }
 
